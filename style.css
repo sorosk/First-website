@@ -16,7 +16,12 @@
 body{
     font-family: PopLight, sans-serif;
 }
-
+.chef-description {
+    background: linear-gradient(45deg, rgba(249, 239, 247, 0.1), rgba(74, 35, 12, 0.4));
+}
+.barber-description {
+    background: linear-gradient(45deg, rgba(249, 239, 247, 1), rgba(132, 100, 86, 0.8));
+}
 .portofolio{
     color: white;
     background: radial-gradient(rgba(43, 55,96, 1), rgba(11, 16,35, 1));
@@ -196,7 +201,7 @@ nav {
 }
 
 @media  (max-width: 1024px) {
-    .page{
+    .page {
         grid-template-columns: 5% 1fr 5%;
         grid-auto-rows: 2fr 1fr;
         align-items: center;
@@ -249,5 +254,4 @@ nav {
     .details h2 {
         font-size: 28px;
     }
-
 }
